@@ -1,0 +1,39 @@
+{
+  "name": "hubot-thank-you",
+  "description": "A hubot script that accepts thanks",
+  "version": "0.0.0",
+  "author": "Lucas Videla <videla.lucas@gmail.com>",
+  "license": "MIT",
+
+  "keywords": ["hubot","hubot-scripts"],
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hubot-scripts/hubot-thank-you.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/hubot-scripts/hubot-thank-you/issues"
+  },
+
+  "dependencies": {
+    "coffee-script": "~1.6"
+  },
+
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*",
+    "grunt-mocha-test": "~0.7.0",
+    "grunt-release": "~0.6.0",
+    "matchdep": "~0.1.2",
+    "grunt-contrib-watch": "~0.5.3"
+  },
+
+  "main": "index.coffee",
+
+  "scripts": {
+    "test": "grunt test"
+  }
+}
