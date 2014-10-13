@@ -1,7 +1,7 @@
 {
   "name": "hubot-thank-you",
   "description": "A hubot script that accepts thanks",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Lucas Videla <videla.lucas@gmail.com>",
   "license": "MIT",
   "keywords": [
