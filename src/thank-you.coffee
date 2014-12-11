@@ -10,6 +10,7 @@
 #
 # Commands:
 #   hubot thank[s] [you] - Hubot accepts your thanks
+#   thanks hubot - same
 #
 # Author:
 #   github.com/delucas
@@ -33,3 +34,8 @@ response = [
 module.exports = (robot) ->
   robot.respond /(thank).*/i, (msg) ->
     msg.send msg.random response
+
+  robot.hear /thanks (.*)/i, (msg) ->
+    name = msg.match[1]
+    if name.toLowerCase() is robot.name.toLowerCase()
+      msg.send msg.random response
