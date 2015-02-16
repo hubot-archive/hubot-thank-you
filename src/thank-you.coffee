@@ -35,7 +35,7 @@ module.exports = (robot) ->
   robot.respond /(thank).*/i, (msg) ->
     msg.send msg.random response
 
-  robot.hear /thanks (.*)/i, (msg) ->
+  robot.hear /thanks? (.*)/i, (msg) ->
     name = msg.match[1]
-    if name.toLowerCase() is robot.name.toLowerCase()
+    if name.toLowerCase().indexOf robot.name.toLowerCase() > -1
       msg.send msg.random response
