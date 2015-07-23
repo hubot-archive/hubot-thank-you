@@ -10,7 +10,7 @@
 #
 # Commands:
 #   hubot thank[s] [you] - Hubot accepts your thanks
-#   thanks hubot - same
+#   thanks hubot - Hubot accepts your thanks
 #
 # Author:
 #   github.com/delucas
